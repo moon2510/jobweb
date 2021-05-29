@@ -1,0 +1,667 @@
+@import url(//db.onlinewebfonts.com/c/cefd416d4a810c38e8e2987afa6ef07f?family=Grendel);
+.logo {
+   font-size: 40px;
+   font-family: sans-serif;
+   color: black;
+   float: left;
+   padding-top: 20px;
+}
+
+body {
+   background-color: rgb(253, 252, 252);
+   margin: 0;
+}
+
+h6 {
+   margin: 0%;
+   font-family: sans-serif;
+   font-style: italic;
+}
+
+/* NAVVBAR */
+
+@font-face {
+   src: url(/Font/Montserrat-Light.otf);
+   font-family: Montserrat Light;
+}
+
+@font-face {
+   src: url(/Font/GRENDB__.TTF);
+   font-family: Grendel;
+}
+
+.right {
+   display: flex;
+   align-items: center;
+   margin-left: 22%;
+   margin-top: 2%;
+}
+
+.navbar button {
+   font-weight: 600;
+   color: white;
+   font-size: 13px;
+   background-color: transparent;
+   border: transparent;
+   padding: 0px 12px 0px 12px;
+   letter-spacing: 2px;
+}
+
+.snip {
+   border: none;
+   cursor: pointer;
+   outline: none;
+   position: relative;
+}
+
+.snip:before, .snip:after {
+   border-color: transparent;
+   -webkit-transition: all 0.35s;
+   transition: all 0.35s;
+   border-style: solid;
+   border-width: 0;
+   content: "";
+   height: 0px;
+   position: absolute;
+   width: 0px;
+}
+
+.snip:after {
+   border-bottom-width: 2px;
+   border-color: white;
+   bottom: -5px;
+   left: 0px;
+}
+
+.snip:hover:before, .snip.hover:before, .snip:hover:after, .snip.hover:after {
+   height: 100%;
+   width: 100%;
+}
+
+.sign button {
+   background-color: white;
+   color: rgb(46, 46, 185);
+   padding: 5px 15px 5px 15px;
+   margin: 0;
+   border: none;
+   font-weight: 700;
+   border-radius: 25px;
+   margin-left: 35px;
+   cursor: pointer;
+}
+
+.sign button:hover {
+   color: white;
+   background-color: rgb(34, 0, 128);
+}
+
+/* PAGE ONE */
+
+.pageone {
+   background-image: url("/Image/bgr11.png");
+   background-size: cover;
+   position: relative;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 100%;
+   color: rgba(255, 255, 255, 0.6);
+   display: grid;
+   grid-template-columns: 50% 50%;
+   font-size: 30px;
+   text-align: right;
+}
+
+.manimage {
+   text-align: right;
+   margin-top: 30px;
+}
+
+.manbook img {
+   width: 99%;
+   margin: 0;
+   margin-top: -50px;
+   margin-left: -15px;
+}
+
+/*  */
+
+.info {
+   margin-left: 10%;
+   text-align: left;
+   margin-top: 30px;
+}
+
+.intro {
+   display: flex;
+   align-items: center;
+   float: left;
+}
+
+.arrow img {
+   width: 200px;
+   margin-top: 220px;
+   margin-left: -100px;
+}
+
+h1 {
+   color: black;
+   font-size: 80px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: left;
+   margin-top: 100px;
+   letter-spacing: 3px;
+   margin-bottom: 22px;
+}
+
+.fa-cube {
+   color: rgb(79, 15, 153);
+}
+
+h3 {
+   font-family: Montserrat Light;
+   font-size: 15px;
+   width: 455px;
+   color: black;
+   line-height: 25px;
+   opacity: 100%;
+   text-align: left;
+}
+
+input[type=text] {
+   width: 75%;
+   padding: 12px 30px;
+   box-sizing: border-box;
+}
+
+input:focus, select:focus, textarea:focus {
+   outline: none;
+}
+
+.getmail {
+   margin-top: 25px;
+}
+
+.getmail input[type=text] {
+   border-radius: 50px;
+   border: rgb(228, 226, 226) 3px solid;
+   background-color: rgba(236, 229, 229, 0.8);
+   box-shadow: 5px 5px 30px rgba(247, 239, 239, 0.8);
+   opacity: 0.8;
+}
+
+.getmail button {
+   margin-left: -80px;
+   border-radius: 50px;
+   padding: 15px 20px 15px 20px;
+   background-color: rgb(66, 31, 150);
+   color: white;
+   border: none;
+   opacity: 0.95;
+}
+
+.getmail button:hover {
+   width: 115px;
+   cursor: pointer;
+}
+
+.usedby {
+   display: flex;
+   align-items: center;
+   margin-top: 40px;
+}
+
+.icon {
+   color: rgba(158, 152, 152, 0.6);
+   font-size: 16px;
+   padding-right: 18px;
+}
+
+/* Social Icon */
+
+.social-icon {
+   float: right;
+   border-left: rgba(255, 255, 255, 0.2) solid 1px;
+   width: 100px;
+   height: 104vh;
+   display: flex;
+   margin-right: 15px;
+   text-align: center;
+   line-height: 10px;
+   align-items: center;
+   display: grid;
+}
+
+.social-icon button {
+   border: none;
+   background: transparent;
+   font-size: 20px;
+   color: white;
+   margin-left: 0px;
+   padding: 0;
+}
+
+.social-icon button:hover {
+   font-size: 30px;
+}
+
+/* BOOK */
+
+.usedby h4 {
+   color: rgb(168, 164, 158);
+   font-size: 15px;
+   line-height: 18px;
+   width: 85px;
+   margin-top: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* PAGE TWO*/
+
+.boxwhitecenter {
+   display: flex;
+   justify-content: center;
+}
+
+.boxwhite {
+   background-color: rgb(255, 255, 255);
+   padding: 20px 10px 10px 10px;
+   width: 850px;
+   box-shadow: 0 0 15px 15px rgb(236, 234, 234);
+   border-radius: 6px;
+}
+
+h4 {
+   color: #000;
+   font-size: 25px;
+   font-family: sans-serif;
+}
+
+@font-face {
+   font-family: 'Bariol Regular';
+   src: local('Bariol Regular'), url('/Fonts/bariol_regular-webfont.woff') format('woff');
+}
+
+@font-face {
+   font-family: 'Bariol Bold';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Bariol Bold'), url('/Fonts/bariol_bold-webfont.woff') format('woff');
+}
+
+@font-face {
+   font-family: 'Raleway Thin';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Raleway Thin'), url('/Fonts/Raleway-VariableFont_wght.ttf') format('woff');
+}
+
+#hiring {
+   margin: 0 0 25px 40px;
+   font-family: Bariol Regular;
+   font-size: 32px;
+}
+
+.numdata h4 {
+   color: rgb(56, 4, 116);
+   font-family: Bariol Regular;
+   margin: 0;
+}
+
+.data, .remotejob {
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+   text-align: center;
+}
+
+.buttonpost button {
+   background-color: rgb(66, 31, 150);
+   color: white;
+   border: none;
+   padding: 20px 40px 20px 40px;
+   border-radius: 50px;
+   cursor: pointer;
+   margin-top: -100px;
+   box-shadow: 20px 25px 15px rgb(231, 227, 227);
+}
+
+h5 {
+   font-size: 15px;
+   color: rgb(194, 191, 191);
+}
+
+.remotejob {
+   margin: 40px 40px 40px 60px;
+}
+
+.remotejob img {
+   width: 80%;
+   float: left;
+   border-radius: 15px;
+}
+
+.remotejobs h3 {
+   font-size: 45px;
+   width: 250px;
+   margin-left: 55px;
+   line-height: 55px;
+   font-family: Bariol Bold;
+}
+
+.remotejobs h5 {
+   text-align: right;
+   color: rgb(121, 120, 120);
+   margin-right: 60px;
+   margin-top: -30px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.major {
+   background-color: white;
+   float: left !important;
+   border-radius: 15px;
+}
+
+.major h4 {
+   font-size: 20px;
+   padding-left: 30px;
+   width: 150px;
+   text-align: left;
+   line-height: 28px;
+   margin-top: -20px;
+}
+
+.whitebgr {
+   padding-right: 20px;
+}
+
+.major h6 {
+   font-family: Raleway Thin;
+   text-align: left;
+   margin: -12px 0px 20px 30px;
+   font-size: 15px;
+   color: rgb(88, 85, 85);
+}
+
+/* PAGE THREE */
+
+.pagethree {
+   background-color: white;
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+
+.imageleft {
+   text-align: center !important;
+}
+
+.purplecircle {
+   background-color: rgb(111, 74, 197);
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   text-align: center;
+   margin-left: 20%;
+   margin-top: 30%;
+   margin-bottom: 80px;
+   box-shadow: -25px 25px 10px rgb(240, 237, 237);
+}
+
+.imageleft img {
+   width: 700px;
+   margin-top: -85%;
+   margin-left: -55%;
+}
+
+.boostyourcareer {
+   margin-top: 20px;
+}
+
+.boostyourcareer h3 {
+   font-size: 60px;
+   line-height: 65px;
+   width: 100%;
+   font-family: Bariol Bold;
+}
+
+.boostyourcareer h6 {
+   font-family: Raleway Thin;
+   font-style: normal;
+   font-size: 14px;
+   width: 70%;
+   text-align: justify;
+   line-height: 22px;
+   margin: 0;
+   margin-top: -45px;
+   color: rgb(87, 85, 84);
+   padding-bottom: 20px;
+}
+
+.must {
+   display: flex;
+   align-items: center;
+}
+
+.boostyourcareer h5 {
+   color: rgb(87, 84, 84);
+   font-size: 12px;
+   font-family: Helvetica, sans-serif;
+}
+
+.fa-check-circle {
+   color: rgb(66, 31, 150);
+   border-radius: 50%;
+   margin-right: 20px;
+   font-size: 22px;
+   box-shadow: 5px 5px 10px gainsboro;
+}
+
+/* PAGE FOUR */
+
+.pagefour {
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+
+.whatourjob {
+   margin-left: 15%;
+}
+
+.whatourjob h6 {
+   margin: 0;
+   margin-top: 30px;
+}
+
+.whatourjob h6 {
+   font-style: italic;
+   width: 80%;
+}
+
+.whatourjob h5 {
+   margin: 0;
+   color: #000;
+   font-family: Bariol Bold;
+   font-size: 20px;
+}
+
+#noitalic {
+   font-style: normal;
+   margin: 0;
+   margin-top: 5px;
+}
+
+.fa-quote-left {
+   color: rgb(66, 31, 150);
+   font-size: 40px;
+   margin-top: -50px;
+}
+
+.imageright img {
+   width: 120%;
+   margin-top: -20%;
+   margin-left: -25%;
+}
+
+.arrowsquare {
+   display: flex;
+   align-items: center;
+}
+
+.square {
+   font-size: 22px;
+   color: white;
+   background-color: rgb(55, 18, 116);
+   opacity: 0.5;
+   padding: 5px 20px 5px 20px;
+   margin-right: 35px;
+   margin-top: 15px;
+   border-radius: 8px;
+   cursor: pointer;
+}
+
+.arrowsquare :hover {
+   background-color: rgb(66, 31, 150);
+   opacity: 0.9;
+}
+
+/* PAGE FIVE */
+
+.pagefive {
+   display: flex;
+   align-items: center;
+   background-color: rgb(255, 255, 255);
+   height: 400px;
+   justify-content: center;
+}
+
+.subscribebox {
+   display: flex;
+   justify-content: center;
+}
+
+.boxpurple {
+   color: white;
+   background-color: rgb(66, 31, 150);
+   padding: 20px 10px 10px 10px;
+   width: 850px;
+   box-shadow: 0 0 15px 15px rgb(238, 231, 231);
+   border-radius: 8px;
+   text-align: center;
+}
+
+.boxpurple h4 {
+   color: white !important;
+   font-size: 44px;
+   font-family: Bariol Bold;
+   padding: 12px;
+   margin: 0;
+}
+
+.boxpurple h5 {
+   color: white;
+   font-size: 15px;
+   font-family: Raleway Thin;
+   font-weight: normal;
+   margin: 0;
+}
+
+.submail {
+   margin-top: 25px;
+   margin-bottom: 20px;
+}
+
+.submail input[type=text] {
+   border-radius: 50px;
+   border: none;
+   background-color: white;
+   padding: 22px;
+   width: 450px;
+}
+
+.submail button {
+   margin-left: -55px;
+   border-radius: 50%;
+   padding: 18px;
+   background-color: rgb(66, 31, 150);
+   color: white;
+   border: none;
+   opacity: 0.95;
+}
+
+.submail button:hover {
+   cursor: pointer;
+   padding: 20px;
+}
+
+/* FOOTER */
+
+.footerremote {
+   display: grid;
+   grid-template-columns: 30% 18% 18% 18% 16%;
+   margin-left: 6%;
+   text-align: left;
+   margin-bottom: 22px;
+}
+
+.footerremote h3 {
+   font-size: 20px;
+   font-family: Bariol Bold;
+   color: rgb(56, 54, 54);
+   margin-right: 0;
+   margin-bottom: 8px;
+   width: 50px;
+}
+
+.footerremote h6 {
+   font-family: Raleway Thin;
+   font-style: normal;
+   line-height: 35px;
+   width: 70%;
+   font-size: 13px;
+   margin: 0;
+   color: rgb(85, 84, 84);
+}
+
+.remotelyfoot h3 {
+   font-size: 25px;
+   font-style: italic;
+}
+
+.remotelyfoot h6 {
+   padding-top: 10px;
+   line-height: 28px;
+}
+
+p {
+   font-weight: bold;
+   color: rgb(68, 66, 66);
+   font-size: 10px;
+   font-family: Raleway Thin;
+}
+
+.socialicons {
+   display: flex;
+}
+
+.faa {
+   padding: 6px;
+   border-radius: 50%;
+   border: 0.5px solid rgb(160, 155, 155);
+   margin: 20px 10px 35px 0px;
+   cursor: pointer;
+   font-size: 11px;
+}
+
+.fa-facebook-f {
+   padding-left: 7px;
+   padding-right: 7px;
+}
+
+.fa-youtube {
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.faa:hover {
+   color: white;
+   background-color: rgb(51, 26, 110);
+}
